@@ -6,7 +6,7 @@ const SUPABASE_URL = "https://bvyahupcsejxcwjnnjim.supabase.co";
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ2eWFodXBjc2VqeGN3am5uamltIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEwODEzMDcsImV4cCI6MjA4NjY1NzMwN30.GqeY0Bb3h6qanxthhq90TgdABbPPZjZ2ySsDIsCHEPE";
 const EVO_URL     = "https://korvax-apps-evolution-api.obeisx.easypanel.host";
 const EVO_KEY     = "E33F4A79FB80-4AF1-BC04-CD6039771DA6";
-const EVO_INST    = "SalonClick";
+const EVO_INST    = "salon";
 
 // ─── SUPABASE HELPER ──────────────────────────────────────────────────────────
 async function sbFetch(path, opts = {}) {
